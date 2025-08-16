@@ -1,0 +1,100 @@
+* {
+    background-color: rgb(31, 0, 0);
+    color: pink;
+}
+
+#whole2,
+#whole3,
+#whole4,
+#whole5,
+#whole6 {
+    display: none;
+}
+
+#whole,
+#whole2,
+#whole3,
+#whole4,
+#whole5,
+#whole6 {
+    margin: 18%;
+}
+
+#question {
+    font-size: 2em
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    position: relative;
+    top: 1rem;
+    left: 15rem;
+    background-color: rgb(41, 2, 2);
+    border-radius: 15px;
+    border-color: pink;
+    margin: 5px;
+}
+
+@media screen and (max-width: 340px) {
+
+    #whole,
+    #whole2,
+    #whole3,
+    #whole4,
+    #whole5,
+    #whole6 {
+        position: relative;
+        top: 7rem;
+        right: 2rem;
+    }
+
+    #question {
+        font-size: 1.5em;
+        width: 150%;
+    }
+
+    button {
+        width: 70px;
+        height: 30px;
+        position: relative;
+        top: 1rem;
+        left: 3rem;
+        background-color: rgb(41, 2, 2);
+        border-radius: 15px;
+        border-color: pink;
+        margin: 5px;
+    }
+
+    #whole6 #question {
+        width: 169%;
+        position: relative;
+        right: 1.3rem;
+    }
+
+    #whole5 #yes5 {
+        position: relative;
+        left: 5rem;
+    }
+
+    #whole3 #question {
+        position: relative;
+        left: 2.5rem;
+    }
+
+    #no3 {
+        position: relative;
+        top: 19rem;
+        left: 8rem;
+    }
+
+    #whole2 #question {
+        position: relative;
+        left: 4rem;
+    }
+
+    #no2 {
+        position: relative;
+        top: -9rem;
+    }
+}
